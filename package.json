@@ -1,0 +1,21 @@
+{
+  "name": "ceres-js-utils",
+  "version": "1.0.0",
+  "description": "additional useful functionality for WarCraft on JS/TS",
+  "scripts": {
+    "build": "ceres-tstl"
+  },
+  "dependencies": {
+    "war3-types": "^1.0.4"
+  },
+  "author": "WriteCoin",
+  "license": "ISC",
+  "devDependencies": {
+    "ceres-tstl": "^0.31.0-patch1",
+    "lua-types": "^2.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W3TS-Project/ceres-ts-utils.git"
+  }
+}

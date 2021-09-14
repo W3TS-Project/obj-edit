@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "removeComments": true,
+    "lib": ["es6"],
+    "strict": false,
+    "types": [
+      "lua-types/core/coroutine",
+      "lua-types/core/global",
+      "lua-types/core/math",
+      "lua-types/core/metatable",
+      "lua-types/core/modules",
+      "lua-types/core/string",
+      "lua-types/core/table",
+      "lua-types/core/os",
+      "lua-types/special/5.3",
+      "war3-types/core/compat",
+      "war3-types/core/common",
+      "war3-types/core/blizzard",
+      "war3-types/core/commonai",
+      "war3-types/core/polyfill",
+      "war3-types/special/w3ts"
+    ],
+    "allowJs": true,
+    "alwaysStrict": false,
+    "checkJs": false,
+    "moduleResolution": "node",
+    "outDir": "target/compiled",
+    "rootDir": "./",
+    "baseUrl": "node_modules",
+    "paths": {
+      "*": ["./*/src/index", "./*/lib/index", "./*/index", "./*"]
+    },
+    "declaration": false
+  },
+  "include": ["./src", "main.js"],
+  "tstl": {
+    "luaTarget": "5.3",
+    "noHeader": true,
+    "luaLibImport": "require",
+    "noImplicitSelf": true
+  }
+}
