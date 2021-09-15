@@ -1,3 +1,3 @@
 export const init = () => {
-    print('ceres-js-utils')
+    print('package-js-example')
 }
