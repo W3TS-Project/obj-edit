@@ -1,22 +1,26 @@
 {
-  "name": "package-js-example",
+  "name": "package-ts-example",
   "version": "1.0.0",
   "description": "sample batch script",
   "scripts": {
     "build": "ceres-tstl"
   },
   "dependencies": {
-    "ceres-js-utils": "git+https://github.com/W3TS-Project/ceres-js-utils.git",
     "war3-types": "^1.0.4"
   },
   "author": "WriteCoin",
   "license": "ISC",
   "devDependencies": {
     "ceres-tstl": "^0.31.0-patch1",
-    "lua-types": "^2.8.0"
+    "lua-types": "2.8.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/W3TS-Project/package-js-example.git"
-  }
+    "url": "git+https://github.com/W3TS-Project/package-ts-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/W3TS-Project/package-ts-example/issues"
+  },
+  "homepage": "https://github.com/W3TS-Project/package-ts-example#readme",
+  "main": "index.ts"
 }

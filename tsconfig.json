@@ -33,7 +33,7 @@
     },
     "declaration": false
   },
-  "include": ["node_modules/ceres-js-utils", "./src", "main.js"],
+  "include": ["./src", "index.ts"],
   "tstl": {
     "luaTarget": "5.3",
     "noHeader": true,
