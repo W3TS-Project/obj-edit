@@ -1,26 +1,28 @@
 {
-  "name": "package-ts-example",
+  "name": "obj-edit",
   "version": "1.0.0",
   "description": "sample batch script",
   "scripts": {
     "build": "ceres-tstl"
   },
   "dependencies": {
+    "ceres-ts-utils": "git+https://github.com/W3TS-Project/ceres-ts-utils.git",
     "war3-types": "^1.0.4"
   },
   "author": "WriteCoin",
   "license": "ISC",
   "devDependencies": {
+    "ceres-decl": "^1.0.8",
     "ceres-tstl": "^0.31.0-patch1",
     "lua-types": "2.8.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/W3TS-Project/package-ts-example.git"
+    "url": "git+https://github.com/W3TS-Project/obj-edit.git"
   },
   "bugs": {
-    "url": "https://github.com/W3TS-Project/package-ts-example/issues"
+    "url": "https://github.com/W3TS-Project/obj-edit/issues"
   },
-  "homepage": "https://github.com/W3TS-Project/package-ts-example#readme",
+  "homepage": "https://github.com/W3TS-Project/obj-edit#readme",
   "main": "index.ts"
 }

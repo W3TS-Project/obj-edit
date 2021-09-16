@@ -1,3 +1,1 @@
-import { init } from "./src/file";
-
-init()
+import './src/test'
