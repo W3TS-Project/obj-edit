@@ -1,12 +1,12 @@
-namespace ObjEdit {
-  export let Footman: UnitDataInput
+import { generateUnit, UNIT_ID_START } from "./objEdit"
+import { UnitDataKey, UnitDataOutput } from "./typing/unit"
 
-  compiletime(() => {
-      UNIT_ID_START = nextDecomposedID(UNIT_ID_START)
-      Footman = generateUnit<UnitDataKey>({
-          parentId: 'hfoo',
-          id: decomposedIDToRaw(UNIT_ID_START),
-          Name: "Custom Footman"
-      }, new Set())
-  })
-}
+
+export let Footman = compiletime(() => {
+    return generateUnit<UnitDataKey>({
+        parentId: 'hfoo',
+        id: UNIT_ID_START.next(),
+        Name: "Custom Footman"
+    }, new Set())
+})
+print(Footman.Name)

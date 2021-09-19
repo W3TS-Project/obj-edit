@@ -22,6 +22,7 @@
       "war3-types/core/commonai",
       "war3-types/core/polyfill",
       "war3-types/special/w3ts",
+      "ceres-ts-utils/src/decl",
       "./src/decl"
     ],
     "allowJs": true,
@@ -36,7 +37,7 @@
     },
     "declaration": false
   },
-  "include": ["./node_modules/ceres-ts-utils/", "./src", "index.ts"],
+  "include": ["node_modules/ceres-ts-utils/", "./src", "index.ts"],
   "tstl": {
     "luaTarget": "5.3",
     "noHeader": true,
